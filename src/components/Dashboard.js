@@ -8,7 +8,7 @@ class Dashboard extends Component{
     renderProducts(){
         return this.props.products.map(product => {
             return (
-                <Product product={product} />
+                <Product product={product}  key={product.product_id}/>
 
                 // <div key={product.product_id} className="d-flex flex-column product m-4 p-2">
                 

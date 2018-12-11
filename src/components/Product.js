@@ -5,7 +5,7 @@ class Product extends Component{
 
     render(){
         return(
-            <div key={this.props.product.product_id} className="d-flex flex-column product m-4 p-2">
+            <div  className="d-flex flex-column product m-4 p-2">
                 
                 <div className="product-image-container d-flex justify-content-center align-items-center">
                     <img src={this.props.product.product_img} alt={this.props.product.product_name} />

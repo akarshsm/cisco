@@ -21,6 +21,7 @@
     text-overflow: ellipsis;
     width: 230px;
     white-space: nowrap;
+    font-weight: bold;
 }
 .add-btn{
     width: '60px';
