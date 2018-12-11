@@ -1,0 +1,28 @@
+.product{
+    width: 250px;
+    height: 350px;
+    box-shadow: 0px 0px 6px 3px #ccc;
+    /* padding: 6px; */
+    border-radius: 7px;
+}
+
+.product-image-container{
+    width: 240px;
+    height: 240px;
+    background-color: #fff;
+}
+.product-image-container img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.product-name{
+    /* margin-left: 6px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 230px;
+    white-space: nowrap;
+}
+.add-btn{
+    width: '60px';
+    height: '40px';
+}

@@ -1,0 +1,41 @@
+{
+    "products":[
+        {
+            "product_id":"0",
+            "product_name":"Cisco Wap121 Access Point",
+            "product_img":  "https://rukminim1.flixcart.com/image/612/612/accesspoint/e/p/a/cisco-wap121-original-imae3z2zatgh9hbj.jpeg",
+            "product_price": "4970"
+        },
+        {
+            "product_id":"1",
+            "product_name":"Cisco RV042, PORT VPN Router",
+            "product_img":  "https://rukminim1.flixcart.com/image/612/612/j3bwe4w0/router/8/s/q/cisco-rv042-port-vpn-router-original-imaeugg4qsazspvd.jpeg",
+            "product_price": "5200"
+        },
+        {
+            "product_id":"2",
+            "product_name":"Cisco Multiwan Router Router",
+            "product_img": "https://rukminim1.flixcart.com/image/612/612/j4irlow0/router/j/z/8/cisco-multiwan-router-original-imaeux6tw6vnmbzx.jpeg?q=70",
+            "product_price": "6550"
+        },
+        {
+            "product_id":"3",
+            "product_name":"Cisco Wap121 Access Point",
+            "product_img":  "https://rukminim1.flixcart.com/image/612/612/accesspoint/e/p/a/cisco-wap121-original-imae3z2zatgh9hbj.jpeg",
+            "product_price": "4970"
+        },
+        {
+            "product_id":"4",
+            "product_name":"Cisco RV042, PORT VPN Router",
+            "product_img":  "https://rukminim1.flixcart.com/image/612/612/j3bwe4w0/router/8/s/q/cisco-rv042-port-vpn-router-original-imaeugg4qsazspvd.jpeg",
+            "product_price": "5200"
+        },
+        {
+            "product_id":"5",
+            "product_name":"Cisco Multiwan Router Router",
+            "product_img": "https://rukminim1.flixcart.com/image/612/612/j4irlow0/router/j/z/8/cisco-multiwan-router-original-imaeux6tw6vnmbzx.jpeg?q=70",
+            "product_price": "6550"
+        }
+
+    ]
+}
