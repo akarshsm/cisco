@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Product from './Product';
+import { Link } from 'react-router-dom';
 import {connect} from 'react-redux';
-
+import productData from './products_data.json';
 
 import './Dashboard.css';
 
@@ -10,6 +11,7 @@ class Dashboard extends Component{
     constructor(props){
         super(props);
         this.state = {
+            products : productData.products
             // cart_value: this.props.product
         };
     }
@@ -27,7 +29,8 @@ class Dashboard extends Component{
                         <span className="font-weight-bold">{cart_value}</span>
                     </div>
                     <div className="mr-3">
-                        <a className="btn btn-danger" href="/checkout">Checkout</a>
+                        {/* <a className="btn btn-danger" href="/payment">Checkout</a> */}
+                        <Link className="btn btn-danger" to="/payment">Checkout</Link>
                     </div>
 
                 </div>
@@ -36,21 +39,9 @@ class Dashboard extends Component{
     }
     
     renderProducts(){
-        return this.props.products.map(product => {
+        return this.state.products.map(product => {
             return (
                 <Product product={product}  key={product.product_id}/>
-
-                // <div key={product.product_id} className="d-flex flex-column product m-4 p-2">
-                
-                //     <div className="product-image-container d-flex justify-content-center align-items-center">
-                //         <img src={product.product_img} alt={product.product_name} />
-                //     </div>
-                //     <label className="product-name ml-2">{product.product_name}</label>
-                //     <div className="d-flex flex-row">
-                //         <label>PRICE: {product.product_price}</label>
-                //         <button className="ml-auto btn btn-primary add-btn" style={{"width":"80px","height":"40px"}}> Add</button>
-                //     </div>
-                // </div>
             );
         });
     }
