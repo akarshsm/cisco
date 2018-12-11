@@ -27,7 +27,10 @@ class Product extends Component{
                 </div>
                 <label className="product-name ml-2">{this.props.product.product_name}</label>
                 <div className="d-flex flex-row">
-                    <label>PRICE: {this.props.product.product_price}</label>
+                    <label>PRICE:
+                        <i className=" ml-2 fa fa-rupee"></i>
+                        <span className="font-weight-bold">{this.props.product.product_price}</span>
+                    </label>
                     <button onClick={this.addProductToCart} className="ml-auto btn btn-primary add-btn" style={{"width":"80px","height":"40px"}}> Add</button>
                 </div>
             </div>
